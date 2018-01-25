@@ -1,0 +1,107 @@
+body {
+	padding-top: 75px;
+}
+
+.browes-tests {
+	min-height: 600px;
+	padding-top: 25px;
+
+	
+}
+
+.tests-header {
+	margin-bottom: 50px;
+}
+
+.tests-header h3 {
+	margin-bottom: 20px
+}
+
+.test-filter {
+	border: 1px solid #e0e0e0;
+	padding: 25px 20px;
+	background: #FFF
+}
+
+.test-table {
+	min-height: 200px;
+	border-right: 1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	background: #FFF;
+	padding: 25px 20px;
+	margin-bottom: 30px;
+}
+
+.table tbody>tr>td {
+	padding: 20px 0px;
+	padding-left: 20px
+}
+
+
+/*/////////////////////Start Test page/////////////////////*/
+
+
+.start-test {
+	padding-top: 70px;
+	padding-bottom: 70px
+}
+
+.start-test h1 {
+	margin-bottom: 50px;
+}
+
+
+.test-ready {
+	padding: 50px 20px;
+	border: 1px solid #e0e0e0;
+	background: #FFF;
+}
+
+.test-ready p {
+	margin-bottom: 20px;
+}
+
+.test-ready .btn-primary {
+    width: 125px;
+    padding-top: 10px;
+    padding-bottom: 10px;	
+}
+.test-content > li {
+	
+}
+
+
+/*////////////////////////Exam Page//////////////////////*/
+
+
+.exam {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.exam h1, .exam h2, .exam h3, .exam h4, .exam h5, .exam  h6 {
+	background: #BDCED6;	
+	padding: 2px;
+	color: #003366;
+}
+
+
+.exam-title {
+	background: #BDCED6;
+}
+
+.exam a {
+	margin-left: 500px;
+	width: 120px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+

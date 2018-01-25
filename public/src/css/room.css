@@ -1,0 +1,151 @@
+body {
+	padding-top: 30px;
+	    background-color: #f9f9f9;
+}
+
+.write-post {
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+
+.profile-img {
+	float: left;
+	width: 9%;
+	margin-right: 1%;
+}
+
+.post-content {
+	float: left;
+	width: 88%;
+}
+
+.post-content > form > input[type="text"] {
+
+	height: 60px;
+	word-wrap: break-word;
+	margin-bottom: 10px;
+}
+
+.post-content > form > input[type="submit"] {
+	width: 10%;
+	float: right;
+	transition: all .5s ease-in-out;
+}
+
+.post-content > form > input[type="submit"]:hover {
+	background-color: #4267b2;
+	color: #FFF;
+}
+
+
+.content {
+    margin-bottom: 3%;
+	padding-top: 100px;
+}
+.content .post {
+    padding: 3%;
+    border: 3px solid #e0e0e0;
+    background-color: white;
+}
+.content .post img {
+    border-radius: 50%;
+}
+.content .post h4 {
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: 1%;
+}
+.content .post h4 a {
+    text-decoration: none;
+    color: #4267b2;
+}
+.content .post .question {
+    margin-left: 13%;
+    color: #000000;
+}
+
+.content .post .in {
+    color: #797777;
+}
+.content .post hr {
+    width: 100%;
+}
+.content .post form {} .content .post form input[type="text"] {
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #e0e0e0;
+    height: 35px;
+    padding: 5px;
+    outline: 0;
+}
+.content .post form input[type="text"]:focus {
+    border: 2px solid #365899;
+}
+.content .post .comment {
+    background-color: #efeeee;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 3%;
+}
+.content .post .comment img {
+    width: 40px;
+}
+.content .post .comment h4 {
+    font-size: 15px;
+    margin-left: 5px;
+}
+.content .post .comment p {
+    margin-left: 8%;
+    font-family: raleway;
+    color: #797777;
+    font-size: 13px;
+}
+.related-topics {
+    margin-left: 10%;
+}
+.related-topics form input[type="text"] {
+    width: 100%;
+    border: 3px solid #e0e0e0;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 15px;
+    outline: 0;
+}
+.related-topics form input[type="text"]:focus {
+    border: 2px solid #365899;
+}
+.related-topics .topics {
+    background-color: white;
+    border: 3px solid #e0e0e0;
+    font-family: raleway;
+    padding: 15px;
+}
+.related-topics h4 {
+    margin-top: 0px;
+}
+.related-topics hr {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.related-topics a {
+    line-height: 30px;
+    text-decoration: none;
+}
+.related-topics .add {
+    background-color: white;
+    border: 3px solid #e0e0e0;
+    margin-bottom: 15px;
+    padding: 3px;
+}
+.related-topics .add h5 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.related-topics .add .fa {
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    margin-right: 5px;
+    margin-top: 5px;
+}

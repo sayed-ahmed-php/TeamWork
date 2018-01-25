@@ -1,0 +1,87 @@
+body {
+	    background-color: #f0f0f0;
+	padding-top: 20px;
+}
+
+.team {} .team .headline h1 {
+    color: #4267b2;
+    text-transform: uppercase;
+    font-family: raleway;
+    font-weight: 500;
+    font-size: 40px;
+    padding: 5%;
+}
+.team .item {
+    padding-bottom: 5%;
+    padding-top: 7%;
+    text-align: left;
+}
+.team .item img {
+    border: 8px solid #F3F3F3;
+    border-radius: 50%;
+    margin-top: -20%;
+}
+.team .item .border {
+    text-align: center;
+    border-bottom: 2px solid #E1E1E1;
+    padding-bottom: 50px;
+    background-color: white;
+    padding-left: 2%;
+    height: 300px;
+    width: 300px;
+}
+.team .item .right-side {
+    margin-top: 2%;
+}
+.team .item .right-side h1 {
+    font-size: 20px;
+    font-family: raleway;
+    line-height: 48px;
+    color: #4267b2;
+    font-weight: bolder;
+}
+.team .item .right-side hr {
+    width: 200px;
+    height: 2px;
+    background-color: #e0e0e0;
+}
+.team .item .right-side h5 {
+    font-family: raleway;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #494949;
+}
+.team .item .right-side i {
+    margin: 5%;
+    float: inherit;
+    line-height: 30px;
+    color: #fff;
+    background-color: #4267b2;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10%;
+}
+.team .item .right-side .fa-facebook {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.team .item .right-side p {
+    text-align: left;
+    margin-top: 5%;
+    font-family: raleway;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    margin-left: 10%;
+}
+.fa {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+    .team .item {} .team .item .border {
+        margin-top: 10%;
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 1000px) {}

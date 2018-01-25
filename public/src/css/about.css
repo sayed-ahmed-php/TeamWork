@@ -1,0 +1,124 @@
+body {
+	padding-top: 70px;
+	    background-color: #f0f0f0;
+
+}
+
+.headline h1 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    margin-top: 5%;
+    color: #4267b2;
+    text-transform: uppercase;
+    font-family: raleway;
+}
+.headline hr {
+    width: 100px;
+    height: 2px;
+    background-color: #e0e0e0;
+    margin-top: 2%;
+}
+.headline p {
+    color: #909090;
+    font-family: raleway;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 2%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.mission {
+    background-color: white;
+    width: 80%;
+    font-family: raleway;
+    margin-top: 5%;
+    border: 5px solid #F3F3F3;
+}
+.mission .item {} .mission .item img {
+    margin-left: 0%;
+    border-right: 5px solid #F3F3F3;
+    padding: 0%;
+}
+.mission .item .right-side {
+    margin-top: 2%;
+    padding: 2%;
+}
+.mission .item h4 {
+    color: #4267b2;
+}
+.mission .item p {
+    font-size: 12px;
+    color: #9c9b9b;
+}
+/********************/
+
+.vision {
+    background-color: white;
+    width: 80%;
+    margin-top: 5%;
+    font-family: raleway;
+    border: 5px solid #F3F3F3;
+}
+.vision .item {} .vision .item img {
+    padding: 0%;
+    margin: 0%;
+    border-right: 5px solid #F3F3F3;
+}
+.vision .item .right-side {
+    margin-top: 2%;
+    padding: 2%;
+}
+.vision .item h4 {
+    color: #4267b2;
+}
+.vision .item p {
+    color: #9c9b9b;
+}
+.img {
+    width: 100%;
+}
+.img img {
+    width: 100%;
+    margin-top: 10%;
+}
+.story {
+    text-align: center;
+    padding-bottom: 7%;
+    margin-top: 5%;
+}
+.story .item {
+    background-color: white;
+    width: 70%;
+    padding: 5%;
+    border: 5px solid #F3F3F3;
+}
+.story .item .headline {
+    border-radius: 50%;
+    margin-left: 2%;
+    margin-top: -5%;
+}
+.story .item .middle {
+    color: #4267b2;
+    font-family: raleway;
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 24px;
+}
+.story .item p {
+    color: #9c9b9b;
+    font-family: raleway;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 5%;
+}
+@media screen and (min-width: 300px) and (max-width: 700px) {} @media screen and (min-width: 700px) and (max-width: 1000px) {
+    .mission .item p {
+        width: 240px;
+    }
+    .vision .item p {
+        width: 240px;
+    }
+}

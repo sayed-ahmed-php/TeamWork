@@ -1,0 +1,56 @@
+body {
+	padding-top: 70px;
+	    background-color: #f0f0f0;
+
+}
+
+.heading {
+    margin-top: 5%;
+}
+.heading h2 {
+    font-family: raleway;
+    text-align: center;
+    color: #909090;
+}
+.heading hr {
+    margin-top: 0%;
+    width: 135px;
+    border-color: #909090;
+}
+.questions {
+    margin-top: 5%;
+    font-family: raleway;
+    color: #494949;
+}
+.questions .question {
+    background-color: white;
+    border: 5px solid #F3F3F3;
+    padding: 2%;
+    margin: 5%;
+}
+.questions .question h4 {
+    color: #4267b2;
+}
+.questions .question h4 span {
+    font-size: 20px;
+}
+.questions .question input[type="radio"] {
+    margin-right: 1%;
+}
+.questions .question input[type="radio"] .first {
+    margin-left: 0%;
+    margin-top: 8%;
+}
+.questions .question label {
+    color: #494949;
+}
+.questions button {
+    text-transform: uppercase;
+    background-color: #4267b2;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 45px;
+    margin-bottom: 5%;
+    border-radius: 2px;
+}

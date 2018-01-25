@@ -1,0 +1,133 @@
+body {
+	padding-top: 75px;
+}
+
+.group-content {
+	min-height: 600px
+}
+
+aside {
+	border: 2px solid #EEE;
+	height: auto;
+	padding: 20px 15px;
+	background-color: #FFF
+	
+}
+
+aside ul {
+	list-style: none;
+	padding-left: 5px;
+	
+}
+
+aside ul>li{
+	
+	
+}
+
+aside ul>li>a {
+	text-decoration: none;
+	color: #999;
+	line-height: 2;	
+}
+
+.group-img {
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+	background: #DDD;
+}
+
+/*
+.static {
+	float: left;
+	padding-top: 100px;
+	padding-left: 180px
+}
+
+.upload-intstruction {
+	display: inline-block;
+	float: left;
+	padding-top: 100px;
+	
+}
+*/
+
+.manage-group {
+	height: 55px;
+	padding: 10px 10px;
+	background-color: #FFF;
+}
+
+.manage-group > .dropdown {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+
+.post {
+	border: 1px solid #EEE;
+	margin-top: 20px;
+	overflow: hidden;
+	background: #FFF;
+	padding: 10px;
+}
+
+.post img {
+	display: inline-block;
+	float: left
+}
+
+.write-post {
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.write-post textarea {
+	width: 600px;
+}
+
+.post button {
+	width: 150px;
+	float: right;
+	margin-right: 63px;
+	
+}
+
+
+.posts {
+	background: #FFF;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	padding: 10px;
+	border: 1px solid #EEE;
+}
+
+.post-writer, .comment {
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+.post-writer img, .comment img {
+	float: left;
+	margin-right: 10px;
+}
+
+.time {
+	display: block
+}
+
+.comment {
+	margin-top: 10px;
+	border: 1px solid #999;
+	padding: 10px;
+}
+
+.comment p {
+	margin-top: 10px;
+}
+
+
+
+
+

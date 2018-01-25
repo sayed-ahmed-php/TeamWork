@@ -1,0 +1,567 @@
+/*#4267b2*/
+/*hover #365899*/
+
+
+body {
+	background-color: #f9f9f9;
+	color: #494949;
+}
+
+
+
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: bold;
+}
+
+.clearfix {
+	clear: both;
+}
+.content {
+	padding-top: 50px;
+}
+
+.content  h2 , .content h1 {
+	margin-bottom: 30px;
+	font-weight: 300;
+}
+
+/*Start side-nav*/
+.side-nav {
+	margin-bottom: 50px;
+	padding:0px 10px;
+	position: relative
+}
+
+
+aside h1 {
+	font-size: 31px;
+	font-weight: 300;
+}
+
+.active {
+	background: #FFF;
+	border: 1px solid #DDD
+}
+
+
+
+aside>ul {
+	list-style: none;
+	margin-top: 30px;
+	position: relative;
+	padding-left: 0px;
+}
+
+aside>ul>li {
+	margin-bottom: 20px;
+	line-height: 2;
+	display: block;
+	padding: 5px 15px;
+
+}
+
+aside>ul>li:hover {
+	cursor: pointer;
+}
+
+aside>ul>li:focus   {
+	background: #FFF;
+	border:1px solid #CCC;
+}
+
+aside>ul>li>a {
+	text-decoration: none;
+	color: #494949;
+	font-size: 16px;
+	width: 100%;
+	
+}
+
+
+
+aside>ul>li>a:hover {
+	color: #4267b2;
+	=text-decoration: none;
+
+
+}
+
+
+
+
+/* ////////////////////Start setting info page/////////////////// */
+
+
+
+
+.contact-info , .change-pass , .my-team , .collect{
+	margin-bottom: 50px;
+	overflow: hidden;
+	clear: both;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding: 40px;
+	
+}
+
+.contact-info h4 {
+	display: inline-block;
+	margin-top: 0px;
+}
+
+/*#4267b2*/
+/*hover #365899*/
+
+.contact-info a {
+	float: right;
+	margin-right: 20px;
+	color: #4267b2;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.contact-info ul {
+	padding-left:0px;
+}
+
+.account-info {
+	margin-bottom: 50px;
+}
+
+.account {
+	list-style: none;
+	overflow: hidden;
+	margin-bottom: 0px;
+}
+
+.account>li{
+	margin-bottom: 30px;
+	line-height: 2;
+}
+.account>li>h4{
+	display: inline-block;
+
+	font-weight: bold;
+	text-align: left!important;
+
+}
+.account>li>span{
+	text-align: left!important;
+	margin-left: 150px;
+	text-align: center
+}
+
+
+#close-acc {
+	font-weight: bold;
+	color: #365899;
+	font-size: 14px;
+	display: block;
+
+}
+
+
+/* ////////////////// Start Change password page ///////////////// */
+
+.change-pass ul {
+	font-family: monospace;
+	margin-bottom: 50px;
+}
+
+.change-pass .form-control {
+	margin-bottom: 30px;
+	height: 40px;
+	
+
+}
+/*#4267b2*/
+/*hover #365899*/
+
+.submit {
+	transition: all .3s ease-in-out;
+	
+}
+
+.submit:hover {
+	background: #4267b2;
+	color: #FFF;
+	border-color: #4267b2;
+}
+
+.change-pass a {
+	color: #4267b2;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 2;
+
+}
+
+
+/* ////////////////// Start Setting my team page ///////////////// */
+
+
+.my-team {
+	min-height: 300px;
+}
+
+.my-team .modal .form-control {
+	height: 40px;
+	margin-bottom: 20px;
+}
+
+.team-member {
+	overflow: hidden;
+	border: 3px solid #CCC;
+	padding: 15px;
+	cursor: pointer;
+	margin-bottom: 15px;
+	transition: all .2s ease-in-out;
+	
+}
+
+/*#4267b2*/
+/*hover #365899*/
+.team-member:hover {
+	border-color: #4267b2;
+}
+
+.team-img > img {
+	border-radius: 50%;
+}
+
+
+.teamMember-info {
+	padding-top: 15px;
+}
+
+.teamMember-info label, .teamMember-info span, .teamMember-info a  {
+	display: block;
+	
+}
+
+
+.my-team h4 {
+	display: inline-block ;
+}
+
+.btn-add-team {
+	display: inline-block;
+	margin-left: 10px;
+	padding: 0px;
+	background: #FFF;
+}
+
+.btn-add-team:focus {
+    outline: 0px;
+    color: #FFF;
+	
+}
+
+
+
+.btn-add-team .fa {
+	color: #4267b2;
+	font-size: 25px;
+}
+
+.member-list {
+	list-style: none;
+	overflow: hidden;
+	
+}
+
+.member-list > li {
+	float: left;
+	position: relative
+}
+
+.member-list > li > a {
+	
+}
+
+.member-list > li > a > img {
+	width: 60px ;
+	height: 60px;
+	margin-right: 10px;
+	
+}
+
+
+.add-team {
+	position: relative;
+	left: 600%;
+	top: -20px;
+}
+
+#select {
+	float: right;
+	position: relative;
+}
+.select {
+	height: 34px !important;
+	margin-bottom: 2px !important;
+	position: relative;
+	bottom: 20px;
+}
+.btn-create-team {
+	float: right;
+}
+/* ////////////////// Start preofile settings page ///////////////// */
+
+
+.account-summary {
+	overflow: hidden
+}
+
+
+.account-summary span {
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.account-summary .progress {
+	height: 17px;
+	margin-top: 20px;
+	border-radius: 0px;
+	background: #4267b2;
+}
+
+
+
+
+.account-summary select {
+	margin-top: 20px;
+}
+
+
+
+.category {
+	margin-top: 50px;
+}
+
+.category h4 {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.category .fa {
+	background-color: #4267b2;
+	color: #FFF;
+}
+
+.category .btn {
+	padding: 0px;
+	border: 0px;
+	border-radius: 50%;
+}
+
+.category .btn.active.focus, .category .btn.active:focus, .category .btn.focus, .category .btn:active.focus,
+.category .btn:active:focus, .category .btn:focus {
+	outline: 0px;
+	color: #FFF;
+}
+
+.category .btn-circle:hover {
+	background-color: #365899;
+	color: #FFF;
+}
+
+.btn-circle {
+	width: 30px;
+	height: 30px;
+	background-color:  #4267b2;
+	color: #FFF;
+	border-radius: 50%;
+}
+
+
+.linked-account {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+
+
+.linked-account .btn {
+	width: 100%;
+	height: 70px;
+	background-color: #FFF;
+	border: 2px solid #CCC;
+	text-align: left;
+	padding-left: 17px;
+	margin-bottom: 20px;
+
+	
+}
+
+/*#4267b2*/
+/*hover #365899*/
+
+
+.linked-account .btn:hover {
+	border: 2px solid #365899;
+}
+
+.linked-account .btn:focus {
+	color: #494949;
+	background: #FFF;
+	border: 2px solid #365899;
+}
+
+.linked-account .btn:focus span {
+	font-weight: bold;
+}
+.linked-account .btn:focus .fa , .linked-account .btn:focus span {
+	color: #4267b2;
+
+}
+
+.linked-account .fa {
+	font-size: 30px;
+	margin-right: 10px;
+	margin-top: 12px;
+	float: left;
+}
+
+.linked-account span  {
+	font-size: 17px;
+	line-height: 3.5;
+	font-weight: 500;
+}
+
+
+
+
+/*Start footer*/
+footer {
+   padding:50px 0px;
+   background-color: #2c2c2c;
+   overflow: hidden;
+	min-height: 400px;
+}
+
+.social-media {
+	overflow: hidden;
+	padding: 40px 0px;
+}
+
+.social-media > ul {
+	list-style: none;
+	overflow: hidden;
+	
+}
+
+.social-media > ul > li{
+	display: inline-block
+}
+
+.social-media > ul > li > a {
+	color: #969696;
+ 
+}
+
+.social-media > ul > li > a:hover {
+	color: #636363;
+	border-color: #636363;
+}
+
+.social-media .fa {
+	font-size: 18px;
+}
+.social-media .btn-social {
+	border: 1px solid  #969696;
+	width: 60px;
+	height:60px;
+	line-height: 52px;
+	border-radius: 50%;
+	margin-right: 25px;
+}
+
+footer img {
+	margin: 20px auto
+}
+
+.footer-data {
+	color: #FFF
+}
+
+.footer-data ul {
+	list-style: none;
+	overflow: hidden;
+	margin-top: 50px;
+}
+.footer-data ul > li {
+	display: inline-block;
+	border-right: 1px solid #0DCEDA;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.copy-right > span {
+	color: #848383;
+	display: inline-block;
+	padding-left: 45px;
+}
+
+@media (max-width : 480px) {
+	.copy-right > span {
+		padding-left: 0px;
+	}
+
+}
+/*End footer*/
+
+
+
+/*Start media query */
+
+
+@media (max-width : 480px) {
+	.profile-setting {
+		font-size: 29px;
+	}
+	
+	.account {
+		padding-left: 5px;
+	}
+}
+
+
+@media (min-width : 768px) {
+	.content h1 , .content h2{
+		font-size: 25px;
+	}
+
+}
+
+
+@media (min-width :992px) {
+	.content h2{
+		font-size: 31px;
+	}
+	
+	.content h1 {
+		font-size: 31px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+body {
+	
+	background: url(../images/logIn-back.jpg) center no-repeat ;
+}
+.signUp {
+	background-size: cover;
+	min-height: 638px;
+	padding-bottom: 40px;
+}
+
+
+.sign-content {
+	background: rgba(8,8,8,.5);
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	min-height: 638px;
+	padding-top: 50px;
+
+}
+
+
+.sign-content h3 {
+	color: #FFF;
+	font-size: 40px;
+	font-family: raleway;
+	margin-bottom: 50px;
+	
+}
+
+.sign-content .nav-tabs>li>a {
+	width: 178px;
+	text-align: center;
+}
+
+.sign-content .form-control {
+	border-radius: 0px;
+	margin-bottom: 10px;
+	height: 40px;
+	background: rgba(8,8,8,.5);
+	padding-left: 48px;
+	color: #FFF;
+	border: 0px;
+}
+
+
+.sign-content input[type = "submit"] {
+	background: #4267b2;
+	color: #FFF;
+	padding-left: 12px;
+}
+
+
+.sign-content input[type = "submit"]:hover , .sign-content input[type = "submit"]:focus {
+	background: #365899;
+	
+}

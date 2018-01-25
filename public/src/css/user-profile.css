@@ -1,0 +1,834 @@
+body {
+   padding-top: 45px;
+   background-color: #f9f9f9;
+
+}
+
+/*nav bar*/
+
+.navbar-default {
+	background: #FFF;
+	color: #7d7d7d;
+	border-bottom : 2px solid #ececec;
+}
+
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li> .fa {
+	color: #7d7d7d;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li> .fa:hover {
+	color: #000;
+}
+
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	background-color: transparent;
+	color: #000
+}
+
+
+
+@media (max-width : 768px) {
+	.navbar-default .navbar-toggle {
+		margin-top: 15px;
+	}
+	
+	.nav>li {
+		padding-left: 20px
+	}
+	
+	.navbar-form input[type="text"] {
+		width: 100%;
+	}
+	
+}
+
+@media (min-width: 768px) {
+	
+
+	.navbar-right .dropdown-menu {
+		left: 0;
+	}
+	
+	
+}
+
+/*End nav*/
+
+/*Start wrapper*/
+
+.wrapper {
+	min-height: 800px;
+	overflow: hidden;
+}
+
+
+/*Start middle*/
+.middle {
+	padding-top: 150px;
+	overflow: hidden;
+	
+}
+
+.info {
+	background: #FFF;
+	padding: 20px;
+	position: relative;
+	min-height: 428px;
+	text-align: center ;
+	border: 2px solid #EEE;
+	
+}
+
+.info > ul {
+	list-style: none;
+	padding-left: 0px;
+	
+}
+
+.info > ul > li:first-child {
+	height: 55px;	
+}
+
+
+.info > ul > li{
+	margin-bottom: 5px;
+	position: relative;;
+	word-wrap: break-word;
+}
+.info > ul > li > img {
+	position: relative;
+	top: -90px;
+	border-radius: 50%;
+	margin-top: 0px;
+	margin-bottom: -63px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	border: 1px solid #EEE;
+	
+}
+
+.info > ul > li > img:hover{
+	cursor: pointer;
+}
+
+.info > ul > li > .btn-edit-img {
+	position: relative;
+	top: -145px;
+	right: -56px;
+	display: none; 
+	color: #4267b2;
+	
+}
+
+.info > ul > li > .btn-editName {
+	position: relative;
+	top: -35px;
+	right: -70px;
+	color: #4267b2;
+	background-color: transparent;
+	display: none;
+	
+}
+
+.btn-editName .fa {
+	font-size: 15px;
+}
+
+
+
+
+.info > ul > li > .btn-edit-img:active:focus, .btn-edit-img:focus , .btn-edit-img:hover {
+	outline: 0px;
+	color: #4267b2
+}
+
+.info > ul > li > h4 {
+	margin-top: 5px;
+	font-size: 18px;
+	font-weight: bold
+}
+.info > ul > li > label {
+	margin-right: 40px
+}
+.info > ul > li > .fa {
+	margin-right: 35px;
+}
+
+.info > ul > li > p {
+	margin-top: 30px;
+	color: #888 ;
+	line-height: 2;
+
+}
+
+.btn-edit-img {
+	background: #FFF;
+	color: gray;
+	border-radius: 50%;
+	font-size: 18px
+}
+
+@media (max-width : 768px) {
+	.info {
+		min-height: 300px;
+	}
+}
+
+/*End info*/
+
+
+
+/*start porfolio*/
+
+.portfolio {
+	background: #FFF;
+	min-height: 400px;
+	padding: 20px 25px;
+	overflow: hidden;
+	margin-bottom: 25px;
+	border: 2px solid #EEE;
+}
+
+.portfolio nav {
+	width: 230px;
+	margin: 0px auto;
+}
+
+
+.projects {
+}
+.works {
+   overflow: hidden;
+    margin-top: 30px;
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	height: 200px;
+}
+
+.works > div {
+	position: absolute;
+	top: 0 ;
+	left: 0;
+	height: 100%;
+	width: 100% ;
+	padding: 50px; 
+	text-align: center;
+	background: rgba(8,8,8,.5);
+	color: #FFF;
+	padding-top: 100px;
+	display: none;
+		
+}
+
+.work-edit > button {
+	background-color: transparent;
+	border: 2px solid #CCC ; 
+	color: #FFF ;
+	transition: all .2s ease-in-out ;
+	width: 70%;
+	margin: 0px auto;
+}
+
+.work-edit > button:hover  , .work-edit > button:focus{
+	background: #4267b2;
+	border-color: #4267b2;
+	color: #FFF
+}
+
+.port-header h1 {
+	display: inline-block;
+	margin-right: 10px;
+	
+}
+
+
+
+.btn-port-add .fa {
+	color: #4267b2;
+	font-size: 25px;
+}
+
+.btn-port-add .fa:hover {
+	color: #365899;
+	
+}
+
+.btn-port-add {
+	padding: 0px;
+	background-color: #FFF;
+	position: relative;
+	top: -8px;
+}
+
+.btn.active.focus, .btn.active:focus,
+.btn.focus, .btn:active.focus, 
+.btn:active:focus, .btn:focus {
+	outline: 0px;	
+}
+.btn-port-add:active , .btn-port-add:focus{
+	outline: 0px;
+	box-shadow: none;
+}
+
+.port-details .btn:focus , .port-details .fa:focus , .btn-port-add:focus  {
+	outline: 0px;
+}
+
+.port-details .btn-port-add:hover .fa {
+	color: #008329;
+}
+
+.port-details .modal-dialog {
+	width: 800px;
+}
+
+.add-project .form-control {
+	margin-bottom: 25px;
+}
+
+
+.modal-footer {
+	overflow: hidden;
+}
+.modal .modal-footer button {
+	float: left;
+}
+
+.btn-close {
+	float: right !important;
+}
+.btn-close:hover  {
+	border: 1px solid #4267b2;
+	background-color: #FFF;
+	transition: none;
+}
+
+.btn-publish {
+	background-color: #4267b2;
+	color: #FFF;
+	float: left;
+	
+}
+
+.btn-publish:hover {
+	background-color:  #365899;
+	color: #FFF;
+}
+
+
+.view-project > element {
+}
+
+.view-project > form > img {
+	margin-bottom: 20px
+}
+.view-project > form > p {
+	margin-bottom: 20px;
+	text-align: justify
+	
+}
+.view-project > form > a {}
+/*End portfolio*/
+
+
+/*Start education*/
+
+.education {
+	background: #FFF;
+	padding: 20px;
+	min-height: 295px;
+	border: 2px solid #EEE;
+	overflow: scroll;
+	overflow-x: hidden
+
+
+}
+
+.education-header {
+	margin-bottom: 50px;
+}
+
+.education > span {
+	display: inline-block;
+}
+
+
+
+.education-header h1 {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.btn-education-add .fa {
+	color: #4267b2;
+	font-size: 25px;
+}
+
+.btn-education-add {
+	margin-bottom: 15px;
+	padding: 0px;
+	background-color: #FFF;
+}
+
+.edu {
+	overflow: hidden;
+}
+
+.edu label {
+	width: 65%;
+	
+}
+
+
+.education-header .btn:focus , .education-header .fa:focus , .btn-education-add:focus {
+	outline: 0px;
+}
+
+.education-header .btn-education-add:hover .fa {
+	color: #365899;
+}
+
+
+.btn-education-edit {
+	padding: 0px;
+	background-color: #FFF;
+	margin-left: 20px;
+	border-radius: 50%;
+
+}
+
+
+
+.btn-education-edit .fa {
+	color: #4267b2;
+	font-size: 20px;
+	
+}
+/*End education */
+
+
+
+/*Start Tests*/
+
+
+.test {
+   margin-bottom: 25px;
+	background: #FFF;
+	padding: 20px;
+	border: 2px solid #EEE;
+
+}
+
+.test-details {
+   border: 1px solid #ccc;
+   padding: 20px;
+   
+}
+
+
+.test-header h1 {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+
+.table>tbody>tr>td > input[type="checkbox"] {
+	height: 17px;
+	width: 50px;
+}
+
+.btn-test-add .fa {
+	color: #4267b2;
+	font-size: 25px;
+}
+
+.btn-test-add {
+	background-color: #FFF;
+	padding: 0px;
+	position: relative;
+	top: -8px;
+
+}
+
+
+.test-header .btn:focus , .test-header .fa:focus , .btn-test-add:focus {
+	outline: 0px;
+}
+
+.test-header .btn-test-add:hover .fa {
+	color: #365899;
+}
+
+
+/*End test*/
+
+/*Start other experience */
+
+.skill {
+   margin-bottom: 25px;
+	background: #FFF;
+	height: 350px;
+	border: 2px solid #EEE;
+	overflow: scroll;
+	overflow-x: hidden;
+
+	
+}
+
+.skills {
+	list-style: none;
+	padding-left: 3px;
+}
+
+
+.btn-skill-edit {
+	padding: 0px;
+	background-color: #FFF;
+	margin-left: 20px;
+	border-radius: 50%;
+	position: relative;
+	bottom: 5px;
+}
+
+/*#4267b2*/
+/*hover #365899*/
+
+
+.btn-skill-edit .fa {
+	color: #4267b2;
+	font-size: 20px;
+	
+}
+
+.other-details {
+padding: 20px;
+   
+}
+
+.skill-header h1 {
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+.btn-skill-add .fa {
+	color: #4267b2;
+	font-size: 25px;
+}
+
+.btn-skill-add {
+	margin-bottom: 15px;
+	padding: 0px;
+	background-color: #FFF;
+}
+
+.skill-header {
+	margin-bottom: 20px;
+}
+
+
+.skill-header .btn:focus , .skill-header .fa:focus , .btn-skill-add:focus {
+	outline: 0px;
+}
+
+.skill-header .btn-skill-add:hover .fa {
+	color: #365899;
+}
+
+.other-details > ul{
+	list-style: none;
+}
+.other-details > ul > li{
+	display: inline-block;
+	margin-right: 8px;
+	margin-bottom: 5px;
+	background: #888;
+	color: #FFF;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+
+.other-details h2 {
+   font-family: monospace;
+}
+
+.other-details p {
+   font-family: monospace;
+	width: 75%;
+	word-wrap: break-word;
+	display: inline-block;
+	padding-left: 8px;
+}
+
+
+
+
+.addother .form-control {
+	margin-bottom: 25px;
+}
+
+.modal-footer {
+	overflow: hidden;
+}
+
+
+/*End skills*/
+
+/*Start Certification */
+.certification {
+   margin-bottom: 30px;
+	background: #FFF;
+	overflow: hidden;
+	padding-bottom: 35px;	
+	border: 2px solid #EEE;
+
+}
+
+.cert-details {
+   padding: 20px;
+   
+}
+
+
+.cert-details h1 {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+
+
+.certifcate-data {
+    overflow: hidden;
+    margin-top: 30px;
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.certifcate-data  > img {
+	margin: 0px auto;
+	height: 190px;
+	
+}
+
+.certifcate-data > div {
+	position: absolute;
+	top: 0 ;
+	left: 0;
+	height: 100%;
+	width: 100% ;
+	padding: 50px; 
+	text-align: center;
+	color: #FFF;
+	display: none;
+		
+}
+
+.certifcate-data:hover > div {
+	
+	background: rgba(8,8,8,.5);
+	display: block;
+}
+
+
+
+
+.certification-edit {
+	color: #FFF;
+	padding: 50px;
+	
+}
+
+.btn-cert-add .fa {
+	color: #4267b2;
+	font-size: 25px;
+}
+
+
+.btn-cert-add {
+	margin-bottom: 15px;
+	padding: 0px;
+	background-color: #FFF;
+	/*	display: none;*/
+}
+
+.cert-header .btn:focus , .cert-header .fa:focus , .btn-cert-add:focus {
+	outline: 0px;
+}
+
+.cert-header .btn-cert-add:hover .fa {
+	color:#365899;
+}
+
+.cert-details p {
+   font-family: monospace;
+}
+
+
+.addnew-cert .form-control {
+	margin-bottom: 25px;
+}
+
+.btn-addnew-cert {
+	background-color: #37a000;
+	color: #FFF;
+	width: 150px;
+	float: left;
+	
+}
+
+.btn-addnew-cert:hover {
+	background-color: #008329;
+	color: #FFF;
+}
+
+.modal-footer {
+	overflow: hidden;
+}
+
+
+.btn-cert-view {
+	border: 1px solid #FFF;
+    width: 70%;
+    margin-top: 40px;
+    color: #FFF;
+    font-size: 15px;
+	transition: all .3s ease-in-out;
+	
+}
+
+.btn-cert-view:hover , .btn-cert-view:focus {
+	color: #FFF ;
+	background: #4267b2 ;
+	border-color: #4267b2;
+}
+
+
+.view-certification > form > img {
+	margin-bottom: 20px
+}
+.view-certification > form > p {
+	margin-bottom: 20px;
+	text-align: justify;
+}
+.view-certification > form > a {
+	
+}
+
+
+
+
+/*Media query*/
+
+@media (min-width : 200px) {
+	.info , .education , .test {
+		margin-bottom: 25px;
+	}
+	
+	.certification-edit a {
+		margin-top: 40px;
+		width: 60%;
+	}
+	
+		
+	.other-details > ul {
+		padding-left: 0px;
+	}
+	
+}
+
+@media (max-width : 768px) {
+	.btn-cert-view {
+		width: 50%;
+		margin-top: 50px;
+	}
+}
+
+
+@media (min-width : 768px) {
+	.other-details > ul {
+		padding-left: 30px;
+	}
+}
+
+@media (min-width : 992px ) {
+		
+	.certification-edit a {
+		margin-top: 40px;
+		width: 70%;
+	}
+}
+
+
+
+
+
+/*Media querey General */
+
+@media (max-width : 400px) {
+	
+	.port-header h1 {
+		margin-right: 9px;
+	}
+	
+	.cert-header h1 {
+		font-size: 30px;
+		margin-right: 0px;
+
+	}
+	
+}
+
+@media (min-width : 480px) {
+	
+}
+
+
+@media (min-width : 768px) {
+
+	/*	portfolio height*/
+	
+	.portfolio {
+		height: 428px;
+
+	}
+	
+	.projects {
+		overflow: scroll;
+		overflow-x: hidden;
+		height: 240px;
+	}
+	
+	.education  , .test {
+		height: 299px;
+	
+	}
+	
+	.certification {
+		height: 350px;
+	}
+	
+	.cert-data {
+		overflow: scroll;
+		overflow-x: hidden;
+		height:225px;
+	}
+	
+}
+
+
+@media (min-width : 992px) {
+
+	
+}
+
+
+@media (min-width : 1200px) {}
+
+
+

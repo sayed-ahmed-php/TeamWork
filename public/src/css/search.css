@@ -1,0 +1,107 @@
+body {
+	padding-top: 70px;
+}
+.box-content {
+    margin-bottom: 5%;
+	padding-top: 50px;
+}
+.box-content form {
+    border: 3px solid #e0e0e0;
+    background-color: white;
+    width: 100%;
+    font-family: raleway;
+    padding: 5%;
+    padding-bottom: 3%;
+    margin-top: 3%;
+}
+.box-content form input[type="text"] {
+    height: 40px;
+    padding: 10px;
+    width: 70%;
+    border: 3px solid #E0E0E0;
+}
+.box-content form input[type="text"]:focus {
+    outline: 0;
+    border: 3px solid #365899;
+}
+.box-content form input[type="submit"] {
+    height: 40px;
+    width: 10%;
+    margin-left: 5%;
+    border: 3px solid #E0E0E0;
+    background-color: transparent;
+}
+.box-content form input[type="submit"]:hover {
+    border-color: #365899;
+}
+.box-content form input[type="submit"]:focus {
+    outline: 0;
+    border-color: #365899;
+}
+.box-content form .filter {} .box-content form .filter select {
+    margin-top: 3%;
+    border: 3px solid #E0E0E0;
+    padding: 10px;
+    color: #494949;
+}
+.box-content form .filter select:hover {
+    border-color: #365899;
+}
+.box-content form .filter select:focus {
+    outline: 0;
+}
+.box-content form .filter select option {
+    padding: 5px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.box-content .result {
+    padding: 3%;
+    border: 3px solid #e0e0e0;
+    border-top: none;
+    background-color: white;
+}
+.box-content .result img {
+    border-radius: 50%;
+}
+.box-content .result .text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 2%;
+}
+.box-content .result .text h4 a {
+    text-decoration: none;
+    color: #4267b2;
+}
+.box-content .result .text h4 a:hover {
+    color: #365899;
+}
+.box-content .result .text h6 {} .box-content .result h5 {
+    display: inline-block;
+    margin-left: 40%;
+}
+.pagination>li>a {
+    border: 2px solid #e0e0e0;
+    color: #365899;
+    margin: 2px;
+}
+.pagination>li>a:hover {
+    background-color: white;
+    color: #365899;
+    border-color: #365899;
+}
+@media screen and (min-width: 300px) and (max-width: 400px) {
+    .box-content form input[type="submit"] {
+        width: 23%;
+    }
+    .box-content .result h5 {
+        margin-left: 10px;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 500px) {
+    .box-content form input[type="submit"] {
+        width: 23%;
+    }
+    .box-content .result h5 {
+        margin-left: 50px;
+    }
+}
