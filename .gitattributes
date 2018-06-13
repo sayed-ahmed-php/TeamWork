@@ -1,3 +1,5 @@
 * text=auto
 *static/* linguist-vendored
 *.rb linguist-language=PHP
+* linguist-vendored
+*.js linguist-vendored=false
