@@ -2,4 +2,4 @@
 *static/* linguist-vendored
 *.rb linguist-language=PHP
 * linguist-vendored
-*.php linguist-vendored=false
+*.html linguist-vendored=false
